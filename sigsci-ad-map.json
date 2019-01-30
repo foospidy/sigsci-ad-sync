@@ -1,0 +1,16 @@
+{
+    "SigSciCorp": "corp_short_name",
+    "ADDomain": "corp.foo.com",
+    "GroupMappings": [
+        {
+            "ADGroup": "SigSci Observer All",
+            "SigSciSites": ["*"],
+            "SigSciRole": "observer"
+        },
+        {
+            "ADGroup": "SigSci User Blamo",
+            "SigSciSites": ["blamo"],
+            "SigSciRole": "user"
+        }
+    ]
+}
