@@ -31,7 +31,7 @@ Users and roles are synchronized based on the AD Group to SigSci site and SigSci
 
 Edit the first section of the `sigsci-ad-map.json` file to set your corp name and AD domain:
 
-```json
+```
 {
     "SigSciCorp": "corp_short_name",
     "ADDomain": "corp.foo.com",
