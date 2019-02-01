@@ -118,6 +118,11 @@ if __name__ == '__main__':
                 for user in site_members['data']:
                     if user['user']['email'] not in group_users:
                         print('--------> Removing {}'.format(user['user']['email']))
+                        result = sigsci.delete_site_member(user['user']['email'])
+
+                        if 'message' in result:
+                            print('{}'.format(result['message']))
+                            sys.exit()
 
     except Exception as err:
         print('{}'.format(err))

@@ -66,7 +66,7 @@ If you also want to synchronize users in the AD Group "SigSci User WebDev" to th
         "SigSciRole": "user"
     },
     {
-        "ADGroup": "SigSci User WebDev",
+        "ADGroup": "SigSci User WebProd",
         "SigSciSites": ["WebProd"],
         "SigSciRole": "observer"
     }
